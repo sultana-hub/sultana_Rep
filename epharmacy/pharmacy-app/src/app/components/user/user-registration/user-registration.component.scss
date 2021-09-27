@@ -1,0 +1,78 @@
+.centre1{
+    justify-content: center !important;
+    align-items: center !important;
+    }
+
+    .input-group.md-form.form-sm.form-4 input {
+        border: 1px solid #bdbdbd;
+        }
+        .input-group.md-form.form-sm.form-4 input[type=text]:focus:not([readonly]).lime-border {
+        border: 1px solid #cddc39;
+        box-shadow: none;
+        }
+        .input-group.md-form.form-sm.form-3 input {
+        border: 1px solid #bdbdbd;
+        border-top-right-radius: 0.25rem;
+        border-bottom-right-radius: 0.25rem;
+        }
+        .input-group.md-form.form-sm.form-3 input[type=text]:focus:not([readonly]).red-border {
+        border: 1px solid #ef9a9a;
+        box-shadow: none;
+        }
+        .input-group.md-form.form-sm.form-3 input[type=text]:focus:not([readonly]).amber-border {
+        border: 1px solid #ffca28;
+        box-shadow: none;
+        }
+        .input-group.md-form.form-sm.form-3 input[type=text]:focus:not([readonly]).blue-border {
+        border: 1px solid #64b5f6;
+        box-shadow: none;
+        }
+        .input-group.md-form.form-sm.form-5 input {
+        border: 1px solid #bdbdbd;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+        }
+        .input-group.md-form.form-sm.form-5 input[type=text]:focus:not([readonly]).purple-border {
+        border: 1px solid #ce93d8;
+        box-shadow: none;
+        }
+        // .btn-primary{
+           
+        //     width: 185px;
+        //     height: 40px;
+        //     margin-top: 20px;
+        //     margin-left: 10px;
+           
+        // }
+        .btn1 {
+            margin-top: 23px !important;
+            margin-block: 15px;
+            padding: .68rem 2.14rem !important;
+            width: 185px; 
+            border:#4285F4 2px solid  ;
+            height: 40px;
+            // margin-left: 15px;
+            font-size: 10px !important;
+            
+            }
+        .form-column{
+            width: 400px;
+            justify-content: center !important;
+            align-items: center !important;
+            
+        }
+// .check{
+//     margin-left:30px !important;
+// }
+        // .btn {
+        //     margin-top: 23px !important;
+        //     margin-block: 15px;
+        //     padding: .68rem 2.14rem !important;
+        //     width: 395px; 
+        //     border:#4285F4 2px solid  ;
+        //     }
+ .font{
+     color:#FF8800!important;
+     font-size: 12px;
+     font-weight: bold;
+     }         

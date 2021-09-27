@@ -1,0 +1,74 @@
+<app-header>
+</app-header>
+
+
+<!-- Default form contact -->
+
+<form>
+    <div style="margin-top:180px;font-weight:bold; margin-bottom:50px;border: 1px solid grey;"
+        class="form-column form-col rounded-top rounded-bottom mx-auto ">
+        <div class="form-row "
+            style="width:396px;background-color: dodgerblue;height:80px;margin-left: 1px; color:white;">
+            <p class="mt-4 pl-3">Login </p>
+
+            <div style="margin-left: auto; " class="form-col">
+                <button mdbBtn class="close font" type="button"
+                    onclick="window.location.href='http://localhost:4200/home'" mdbWavesEffect>X</button>
+                <!-- <p class="mb-0 pt-3 pr-4" style="font-size: 12px;">Not Existing User ! </p> -->
+                <!-- <button mdbBtn type="button" size="sm" color="white" class="text-dark bold rounded-pill mt-4"
+                    onclick="window.location.href='http://localhost:4200/userLogin'" mdbWavesEffect>Not Existing
+                    User?<br>
+                    SignUp</button> -->
+                <span class="nav-item" routerLinkActive="active">
+                    <a class="nav-link waves-light font mt-3" [routerLink]="['/signUp']" mdbWavesEffect>Not Existing
+                        User SignUp</a>
+                </span>
+            </div>
+        </div>
+
+
+        <div style="height:60px">
+        </div>
+        <div class="form-column  mx-auto my-auto ">
+            <!-- user name -->
+            <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto pb-3 ">
+                <div class="input-group-prepend">
+                    <span class="input-group-text white black-text" id="basic-addon9">
+                        <mdb-icon fas icon="envelope"></mdb-icon>
+                    </span>
+                </div>
+
+                <input type="text" class="form-control mt-0 amber-border" placeholder="Username(example@gmail.com)"
+                    aria-describedby="basic-addon9">
+            </div>
+
+            <!-- password -->
+            <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto">
+                <div class="input-group-prepend">
+                    <span class="input-group-text white black-text" id="basic-addon9">
+                        <mdb-icon fas icon="lock"></mdb-icon>
+                    </span>
+                </div>
+
+                <input type="text" class="form-control mt-0 amber-border" placeholder="Password"
+                    aria-describedby="basic-addon9">
+            </div>
+            <div class="form-row" style="text-align: center;justify-content: center;">
+                <p style="font-size: 12px">
+                    <button mdbBtn type="button" size="lg" color="white" class="text-dark bold  btn1 rounded-pill"
+                        mdbWavesEffect>Sign
+                        In</button>
+                    <!-- <button mdbBtn type="button" size="lg" color="white" class="text-dark bold  btn1 rounded-pill"
+                        [routerLink]="['/forgotPwd']" routerLinkActive="router-link-active" mdbWavesEffect>Forgot
+                        Password
+                    </button> -->
+                    <span class="nav-item" routerLinkActive="active">
+                        <a class="nav-link waves-light font" [routerLink]="['/forgotPwd']" mdbWavesEffect>Forget
+                            Password</a>
+                    </span>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</form>

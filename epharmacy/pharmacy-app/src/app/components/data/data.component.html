@@ -1,0 +1,37 @@
+<app-header></app-header>
+
+<div class="container" style="margin-top:150px ;text-align: justify;">
+    <h4><strong style="color: goldenrod;">Description</strong>: A list of pharmaceutical drug names<br>
+        <strong style="color: goldenrod;">Source</strong> :The United States National Library of Medicine:<a
+            href="http://druginfo.nlm.nih.gov/drugportal/"> Drugsportal</a>
+    </h4>
+    <div class="col ">
+
+        <table mdbTable style="text-align: justify;width: 400px;">
+            <thead class="info-color white-text">
+                <tr>
+                    <th *ngFor="let head of headElements" scope="col">{{head}} </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr mdbTableCol *ngFor="let item of drugs">
+                    <th scope="row">{{item.drugName}}</th>
+                    <td>{{item.id}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+
+    <!-- <ul>
+        <li *ngFor="let item of drugs">
+            <h2>{{item.drugName}}</h2>
+            <p>{{item.id}}</p>
+        </li>
+    </ul> -->
+</div>

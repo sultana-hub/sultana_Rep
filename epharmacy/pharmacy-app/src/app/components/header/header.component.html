@@ -1,0 +1,89 @@
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top
+ " mdbStickyHeader class="navCss" [containerInside]="true">
+
+    <mdb-navbar-brand>
+        <a class="navbar-brand font" mdbWavesEffect>Logo</a>
+    </mdb-navbar-brand>
+
+    <!-- Collapsible content -->
+    <links>
+        <!-- Links -->
+        <ul class="navbar-nav ml-auto ">
+            <!-- Home -->
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light font" [routerLink]="['/home']" mdbWavesEffect>Home</a>
+            </li>
+            <!-- About Us -->
+            <li class="nav-item">
+                <a class="nav-link waves-light font" mdbWavesEffect>About Us</a>
+            </li>
+            <!-- Subscription -->
+            <li class="nav-item " routerLinkActive="active">
+                <a class="nav-link waves-light font" [routerLink]="['/userReg']" mdbWavesEffect>Subscription</a>
+            </li>
+            <!-- SignUp -->
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light font" [routerLink]="['/signUp']" mdbWavesEffect>SignUp</a>
+            </li>
+            <!-- Login -->
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light font" [routerLink]="['/userLogin']" mdbWavesEffect>Login</a>
+            </li>
+            <!--Contact Us -->
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light font" [routerLink]="['/contact']" mdbWavesEffect>Contact Us</a>
+            </li>
+
+
+            <li class="nav-item  nav-flex-icons">
+                <span class="nav-link font">
+                    <mdb-icon fas icon="bell"></mdb-icon>
+                </span>
+            </li>
+
+
+            <li class="nav-item">
+                <a class="nav-link">
+                    <div class="btn-group font" mdbDropdown>
+                        <span>
+                            <mdb-icon fas icon="bars" mdbDropdownToggle></mdb-icon>
+                        </span>
+                        <div class="dropdown-menu centre dropdown-menu-centre dropdown-primary ">
+                            <a class="dropdown-item centre" href="#">
+                                <span>
+                                    <mdb-icon fas icon="user-alt">
+
+                                    </mdb-icon>
+
+                                </span> Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <span>
+                                    <mdb-icon fas icon="shield-alt"></mdb-icon>
+                                </span>
+                                Security
+                            </a>
+                            <div class="divider dropdown-divider">
+
+                            </div>
+                            <a class="dropdown-item" style="color: #009fcd;" href="#">
+                                <span>
+                                    <mdb-icon fas icon="sign-out-alt"></mdb-icon>
+                                </span>
+                                Logout</a>
+
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+
+
+        <!-- Links -->
+
+    </links>
+
+    <!-- Collapsible content -->
+
+
+</mdb-navbar>

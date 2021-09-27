@@ -1,0 +1,151 @@
+<app-header></app-header>
+
+<!-- <div style="text-align: center;margin-top: 30px;"> -->
+
+<form>
+    <div style="margin-top: 150px;width:400px;height:80px;color:white; border: 1px solid grey;"
+        class="bg-primary  rounded-top mx-auto  form-row">
+
+        <p class="ml-2 pt-4" style="font-weight: bold;font-size: 16px;"> User Registration</p>
+        <div style="margin-left: auto; " class="form-col">
+            <button mdbBtn class="close font" type="button" onclick="window.location.href='http://localhost:4200/home'"
+                mdbWavesEffect>X</button>
+
+            <span class="nav-item" routerLinkActive="active">
+                <a class="nav-link waves-light font mt-3 " [routerLink]="['/userLogin']" mdbWavesEffect>Existing User
+                    login</a>
+            </span>
+
+        </div>
+    </div>
+    <div class="form-column mx-auto my-auto " style="border: 1px solid grey;">
+
+        <!-- <p style="font-weight: bold;margin-bottom: auto;margin-top: 120px;text-align: center;">User Registration</p> -->
+        <!-- email -->
+        <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto pb-3 form-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text white black-text" id="basic-addon9">
+                    <mdb-icon fas icon="envelope"></mdb-icon>
+                </span>
+            </div>
+
+            <input type="text" class="form-control mt-0 amber-border" placeholder="Username(example@gmail.com)"
+                aria-describedby="basic-addon9">
+
+            <!-- here demo code -->
+
+            <!-- here -->
+
+
+        </div>
+        <!-- password -->
+        <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto ">
+            <div class="input-group-prepend">
+                <span class="input-group-text white black-text" id="basic-addon9">
+                    <mdb-icon fas icon="lock"></mdb-icon>
+                </span>
+            </div>
+
+            <input type="text" class="form-control mt-0 amber-border" placeholder="Password"
+                aria-describedby="basic-addon9">
+        </div>
+        <!-- confirmpassword -->
+        <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto py-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text white black-text" id="basic-addon9">
+                    <mdb-icon fas icon="lock"></mdb-icon>
+                </span>
+            </div>
+
+            <input type="text" class="form-control mt-0 amber-border" placeholder="ConfirmPassword"
+                aria-describedby="basic-addon9">
+        </div>
+
+        <!-- Full Name -->
+        <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto ">
+            <div class="input-group-prepend">
+                <span class="input-group-text white black-text" id="basic-addon9">
+                    <mdb-icon fas icon="user-alt"></mdb-icon>
+                </span>
+            </div>
+
+            <input type="text" class="form-control mt-0 amber-border" placeholder="Full Name"
+                aria-describedby="basic-addon9">
+        </div>
+        <!-- phoneNo -->
+        <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto py-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text white black-text" id="basic-addon9">
+                    <mdb-icon fas icon="phone-alt"></mdb-icon>
+                </span>
+            </div>
+
+            <input type="text" class="form-control mt-0 amber-border" placeholder="PhoneNo"
+                aria-describedby="basic-addon9">
+        </div>
+
+        <!-- Street Address -->
+        <div class="input-group md-form form-sm form-4 pl-0 mx-auto my-auto ">
+
+            <input type="text" class="form-control mt-0 lime-border" placeholder="Street Address,P.O.Box">
+
+        </div>
+
+        <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto py-3">
+
+            <input type="text" class="form-control mt-0 red-border" placeholder="Apt#,Floor,Suit(Optional)">
+        </div>
+        <!-- zip,state,city -->
+
+        <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto ">
+            <input type="text" aria-label="city" placeholder="City" class="form-control">
+        </div>
+        <!-- <div class="input-group md-form form-sm form-3 pl-0 mx-auto my-auto py-3">
+            <input type="text" aria-label="state" placeholder="State" class="form-control">
+        </div> -->
+        <select class="browser-default custom-select ">
+            <option selected>Select State</option>
+            <option value="1">New York</option>
+            <option value="2">New Jersey</option>
+            <option value="3">Maryland</option>
+        </select>
+        <div class="input-group md-form form-sm form-3 pb-3 mx-auto my-auto ">
+            <input type="text" aria-label="zip" placeholder="Zip Code" class="form-control">
+        </div>
+
+
+
+
+        <!-- capcha pic -->
+        <div class="input-group mx-auto my-auto pb-3">
+            <img src="assets/capcha.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+
+        <!-- capcha code text -->
+        <div class="input-group mx-auto my-auto pY-3">
+            <input type="text" aria-label="capcha" placeholder="put the above code here!" class="form-control">
+        </div>
+        <!-- Default unchecked -->
+        <div class="mx-auto my-auto check pt-3">
+            <mdb-checkbox [default]="true">Send me the Health Saving Newsletter</mdb-checkbox>
+        </div>
+        <!-- Btn Group -->
+        <div class="form-row mb-2" style="text-align: center;justify-content: center;">
+            <p style="font-size: 12px">
+                <button mdbBtn type="button" size="lg" color="white" class="text-dark bold  btn1 rounded-pill"
+                    mdbWavesEffect>Submit
+                </button>
+                <button mdbBtn type="button" size="lg" color="white" class="text-dark bold  btn1 rounded-pill"
+                    [routerLink]="['/forgotPwd']" routerLinkActive="router-link-active" mdbWavesEffect>Cancel
+
+                </button>
+            </p>
+        </div>
+        <!-- <button mdbBtn type="button" size="lg" color="white" class="text-dark bold rounded-pill "
+            mdbWavesEffect>Send</button> -->
+
+
+    </div>
+</form>
+
+<!-- </div> -->

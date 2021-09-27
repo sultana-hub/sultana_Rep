@@ -1,0 +1,26 @@
+<div class="container column text-center " style="margin-top: 120px;">
+    <h6 class="my-style">Tired of the Same Old Script<br>
+        Try Something New here..........
+    </h6>
+    <div class=" row justify-content-center align-items-centre">
+
+        <!-- Search form -->
+        <form
+            class="form-inline md-form form-sm active-pink active-pink-2 form-dim border border-success rounded-bottom rounded-top">
+            <span style="margin-left:10px;">
+                <mdb-icon fas icon="search" aria-hidden="true"></mdb-icon>
+            </span>
+            <input class="form-control form-control-sm ml-3 w-75 border border-white " type="text"
+                placeholder="Search Drugs" aria-label="Search" mdbInput>
+        </form>
+
+        <div style="margin-top:30px;"><button mdbBtn type="submit" size="lg" color="warning"
+                class="text-dark bold rounded-bottom rounded-top " [routerLink]="['/drugs']"
+                routerLinkActive="router-link-active" mdbWavesEffect>
+                Search
+            </button>
+        </div>
+
+    </div>
+
+</div>

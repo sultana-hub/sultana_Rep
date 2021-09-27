@@ -1,0 +1,51 @@
+<app-header>
+</app-header>
+
+
+<!-- Default form contact -->
+
+<form>
+    <div style="margin-top: 120px;font-weight: bold;width:400px;height:60px; text-align: center;border: 1px solid grey;  color:white;"
+        class="bg-primary  rounded-top  mx-auto pt-3 ">
+        Contact Us
+
+    </div>
+    <div class="form-column mx-auto my-auto" style="border:1px solid grey ;">
+
+        <div class="form-outline">
+
+            <input type="email" id="typeEmail" class="form-control" placeholder="Username(example@gmail.com)" />
+            <label class="form-label" for="typeEmail"></label>
+        </div>
+
+        <div class="form-outline">
+            <input type="password" id="typePassword" class="form-control" placeholder="Password" />
+            <label class="form-label" for="typePassword"></label>
+        </div>
+
+        <p style="text-align: center;">Subject</p>
+        <select class="browser-default custom-select ">
+            <option selected>Select Subject</option>
+            <option value="1">one</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+        </select>
+
+        <div class="form-outline pt-4">
+            <textarea class="form-control" id="textAreaExample" rows="4" placeholder="Message"></textarea>
+        </div>
+        <!-- Btn Group -->
+        <div class="form-row mb-2" style="text-align: center;justify-content: center;">
+            <p style="font-size: 12px">
+                <button mdbBtn type="button" size="lg" color="white" class="text-dark bold  btn1 rounded-pill"
+                    mdbWavesEffect>Submit
+                </button>
+                <button mdbBtn type="button" size="lg" color="white" class="text-dark bold  btn1 rounded-pill"
+                    [routerLink]="['/forgotPwd']" routerLinkActive="router-link-active" mdbWavesEffect>Cancel
+
+                </button>
+            </p>
+        </div>
+
+    </div>
+</form>

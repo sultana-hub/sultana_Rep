@@ -1,0 +1,270 @@
+[
+    {
+        "drugName": "Abacavir Sulfate",
+        "id": "1"
+    },
+    {
+        "drugName": "Abatacept",
+        "id": "2"
+    },
+    {
+        "drugName": "Abilify",
+        "id": "3"
+    },
+    {
+        "drugName": "Acamprosate Calcium",
+        "id": "4"
+    },
+    {
+        "drugName": "Accretropin",
+        "id": "5"
+    },
+    {
+        "drugName": "Aceon",
+        "id": "6"
+    },
+    {
+        "drugName": "Aci-Jel",
+        "id": "7"
+    },
+    {
+        "drugName": "Acthrel",
+        "id": "8"
+    },
+    {
+        "drugName": "Actimmune",
+        "id": "9"
+    },
+    {
+        "drugName": "Actisite",
+        "id": "10"
+    },
+    {
+        "drugName": "Acular",
+        "id": "11"
+    },
+    {
+        "drugName": "Acular LS",
+        "id": "12"
+    },
+    {
+        "drugName": "Acuvail",
+        "id": "13"
+    },
+    {
+        "drugName": "Adagen",
+        "id": "14"
+    },
+    {
+        "drugName": "Adapalene",
+        "id": "15"
+    },
+    {
+        "drugName": "Adcirca",
+        "id": "16"
+    },
+    {
+        "drugName": "Adefovir Dipivoxil",
+        "id": "16"
+    },
+    {
+        "drugName": "Adenoscan",
+        "id": "17"
+    },
+    {
+        "drugName": "Adenosine",
+        "id": "18"
+    },
+    {
+        "drugName": "Adipex-P",
+        "id": "19"
+    },
+    {
+        "drugName": "AdreView",
+        "id": "20"
+    },
+    {
+        "drugName": "Advair HFA",
+        "id": "21"
+    },
+    {
+        "drugName": "Aerospan HFA",
+        "id": "22"
+    },
+    {
+        "drugName": "Agalsidase Beta",
+        "id": "23"
+    },
+    {
+        "drugName": "Aggrenox",
+        "id": "24"
+    },
+    {
+        "drugName": "Akineton",
+        "id": "25"
+    },
+    {
+        "drugName": "Alamast",
+        "id": "26"
+    },
+    {
+        "drugName": "Albenza",
+        "id": "27"
+    },
+    {
+        "drugName": "Aldactazide",
+        "id": "28"
+    },
+    {
+        "drugName": "Aldactone",
+        "id": "29"
+    },
+    {
+        "drugName": "Aldoril",
+        "id": "30"
+    },
+    {
+        "drugName": "Aldurazyme",
+        "id": "31"
+    },
+    {
+        "drugName": "Alemtuzumab",
+        "id": "32"
+    },
+    {
+        "drugName": "Alglucosidase Alfa",
+        "id": "33"
+    },
+    {
+        "drugName": "Allegra-D",
+        "id": "34"
+    },
+    {
+        "drugName": "Allegra D 24 Hour",
+        "id": "35"
+    },
+    {
+        "drugName": "Alli",
+        "id": "36"
+    },
+    {
+        "drugName": "Aloprim",
+        "id": "37"
+    },
+    {
+        "drugName": "Alora",
+        "id": "38"
+    },
+    {
+        "drugName": "Alphanate",
+        "id": "39"
+    },
+    {
+        "drugName": "Altace",
+        "id": "40"
+    },
+    {
+        "drugName": "Altocor",
+        "id": "41"
+    },
+    {
+        "drugName": "Altoprev",
+        "id": "42"
+    },
+    {
+        "drugName": "Alupent",
+        "id": "43"
+    },
+    {
+        "drugName": "Amantadine Hydrochloride",
+        "id": "44"
+    },
+    {
+        "drugName": "Amerge",
+        "id": "45"
+    },
+    {
+        "drugName": "Amifostine",
+        "id": "46"
+    },
+    {
+        "drugName": "Amiloride",
+        "id": "47"
+    },
+    {
+        "drugName": "Aminosalicylic Acid",
+        "id": "1"
+    },
+    {
+        "drugName": "Aminosyn II 8.5%",
+        "id": "1"
+    },
+    {
+        "drugName": "Amlodipine Besylate",
+        "id": "1"
+    },
+    {
+        "drugName": "Amoxapine",
+        "id": "1"
+    },
+    {
+        "drugName": "Amytal Sodium",
+        "id": "1"
+    },
+    {
+        "drugName": "Anabolic steroids",
+        "id": "1"
+    },
+    {
+        "drugName": "Anadrol-50",
+        "id": "1"
+    },
+    {
+        "drugName": "Antithrombin",
+        "id": "1"
+    },
+    {
+        "drugName": "Antivenin",
+        "id": "1"
+    },
+    {
+        "drugName": "Antivert",
+        "id": "1"
+    },
+    {
+        "drugName": "Aredia",
+        "id": "1"
+    },
+    {
+        "drugName": "Aricept",
+        "id": "1"
+    },
+    {
+        "drugName": "Armodafinil",
+        "id": "1"
+    },
+    {
+        "drugName": "Arranon",
+        "id": "1"
+    },
+    {
+        "drugName": "Artane",
+        "id": "1"
+    },
+    {
+        "drugName": "Asclera",
+        "id": "1"
+    },
+    {
+        "drugName": "Ascorbic Acid",
+        "id": "1"
+    },
+    {
+        "drugName": "Astemizole",
+        "id": "1"
+    },
+    {
+        "drugName": "Atacand",
+        "id": "1"
+    }
+]
